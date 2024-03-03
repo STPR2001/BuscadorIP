@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+    />
+    <title>Buscador IP</title>
+  </head>
+  <body>
+    <h1 style="text-align: center;">Buscador IP</h1>
+
+    <main class="container">
+      <form id="form">
+          <label>
+              IP del usuario
+              <input required id="input" type="text" placeholder="Introduce la IP">
+              <small>Por ejemplo: 192.168.1.1</small>
+          </label>
+          <button type="submit" id="submit">
+              Buscar informacion de esta IP
+          </button>
+      </form>
+
+      <div>
+          <pre id="results">
+
+          </pre>
+      </div>
+    </main>
+  </body>
+  <footer>
+    <p style="text-align: center;"><a href="https://starttweb.com/">StarttWeb</a></p>
+
+    <script src="script.js"></script>
+  </footer>
+  
+</html>
